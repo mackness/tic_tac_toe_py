@@ -113,7 +113,7 @@ class TicTacToe:
             or check_reverse_diagonal()
         )
 
-    # check cardinality of a list ignoring EMPTY
+    # check cardinality of a list ignoring EMPTY_CELL
     def list_cardinality_check(self, input_list):
         return len(set(input_list)) == 1 and set(input_list).pop() != self.EMPTY_CELL
 
