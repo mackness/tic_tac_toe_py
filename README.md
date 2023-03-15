@@ -1,4 +1,4 @@
-### Summary
+# Summary
 
 A very simple tic tac toe game I wrote mainly to familiarize myself with Python :)
 
