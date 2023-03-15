@@ -39,7 +39,7 @@ class TicTacToe:
             or col_index < min_index
         ):
             raise ValueError(
-                "Input move is out of bounds please enter a value between 0 and 2 inclusive"
+                f"Input move is out of bounds please enter a value between {min_index} and {max_index} inclusive"
             )
         return [row_index, col_index]
 
